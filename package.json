@@ -1,0 +1,21 @@
+{
+  "name": "find-londoners",
+  "version": "1.0.0",
+  "description": "Return Londoners using geographical coordinates from a given collection",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_EXTRA_CA_CERTS='/etc/ssl/certs/ca-certs.pem' jest",
+    "test:coverage": "NODE_EXTRA_CA_CERTS='/etc/ssl/certs/ca-certs.pem' jest --coverage",
+    "start": "NODE_EXTRA_CA_CERTS='/etc/ssl/certs/ca-certs.pem' node index.js"
+  },
+  "author": "Roni Colling",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
+    "geolocation-utils": "^1.2.5",
+    "jest": "^28.1.1",
+    "lodash": "^4.17.21",
+    "supertest": "^6.2.3"
+  }
+}
